@@ -1,0 +1,24 @@
+body{
+    background-color: grey;
+}
+
+.fb-link {
+    color: blue !important;
+}
+
+#submit-button {
+    color: aliceblue;
+    background-color: green;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 100px;
+}
+
+#footer {
+    text-align: center;
+    color: blue;
+    background-color: aliceblue;
+    font-style:oblique;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100px;
+}

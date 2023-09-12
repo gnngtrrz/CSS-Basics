@@ -7,15 +7,34 @@
     <title>CSS Basics</title>
 
     <style type="text/css">
+      .header-message {
+        background-color: antiquewhite;
+      }
+
       a {
         background-color: grey;
       }
     </style>
   </head>
-
   <body>
-    <a href="google" style="color: yellow">Google</a>
-    <a href="facebook" style="color: blue">Facebook</a>
-    <a href="youtube" style="color: red">YouTube</a>
+    <header style="text-align: center">
+      <h1 class="header-message">
+        Click on the links down below to visit these Websites!
+      </h1>
+    </header>
+
+    <main style="text-align: center">
+      <a href="https://google.com" style="color: yellow">Google</a>
+      <a class="fb-link" href="https://facebook.com" >Facebook</a>
+      <a href="https://youtube.com" style="color: red">YouTube</a>
+      <div>
+        <button id="submit-button">Submit</button>
+      </div>
+    </main>
+
+    <footer id="footer">
+        <p>Copyright 2023 Gianne Gutierrez. All Rights Reserved</p>
+      </footer>
+
   </body>
 </html>
